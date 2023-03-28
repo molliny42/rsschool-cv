@@ -1,5 +1,7 @@
 # Tatsiana Malinina's CV
 
+<img src="IMG.jpg" alt="Photo" width="288" height="352">
+
 ## Contacts
 
 - Phone: **+375 33 3034050**
