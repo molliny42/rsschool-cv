@@ -1,6 +1,6 @@
 # Tatsiana Malinina's CV
 
-![Photography](IMG.jpg){width="288px" height="352px"}
+![Photography](IMG.jpg)
 
 ## Contacts
 
