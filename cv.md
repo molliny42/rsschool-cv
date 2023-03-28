@@ -1,67 +1,123 @@
-# Tatsiana Malinina's CV
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tatsiana Malinina's resume</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="resume-header">
+      <div>
+        <img
+          src="img.jpg"
+          width="288px"
+          height="352px"
+          alt="Photography"
+          class="leftimg"
+        />
+        <h1 class="article-title">Tatsiana Malinina</h1>
+        <h3 class="article-title">25 y.o.</h3>
+        <hr />
+        <h2 class="header-title">Summary</h2>
+        <hr />
+        <p>
+          My goal is to start a career in frontend development and become a
+          professional. With 4 years of experience as a teacher at BSUIR, I have
+          acquired excellent communication skills and teaching experience.
+          Additionally, I have practical knowledge in software testing as a
+          freelance manual tester. My strengths include persistence,
+          responsibility, and a desire to learn and explore new things. I am
+          willing to invest my time and efforts to achieve my goal of becoming a
+          frontend development professional.
+        </p>
+      </div>
+    </div>
 
-![Photography](IMG.jpg)
+    <div id="resume-main">
+      <div class="resume-section">
+        <h2>Technical Skills</h2>
+        <ul class="resume-section-list">
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>Visual Studio Code</li>
+        </ul>
+      </div>
 
-## Contacts
+      <div class="resume-section">
+        <h2>Education</h2>
+        <h3>Belarusian State University of Informatics and Radioelectronics</h3>
 
-- Phone: **+375 33 3034050**
-- Gmail: **molliny42@gmail.com**
-- Discord nickname: **Tatsiana Malinina (@molliny42)**
-- LinkedIn: **[LinkedIn](https://www.linkedin.com/in/tatsiana-malinina-579163214/)**
+        <div class="resume-section-item">
+          <p>
+            Bachelor’s degree, <i>2013-2017</i> <br />Specialty: Engineering and
+            Psychological Support of Information Technologies.
+          </p>
+        </div>
 
-## Summary
+        <div class="resume-section-item">
+          <p>
+            Master’s degree, <i>2017-2019</i> <br />Specialty: Process Safety
+            Management.
+          </p>
+        </div>
 
-My goal is to start a career in frontend development and become a professional. With 4 years of experience as a teacher at BSUIR, I have acquired excellent communication skills and teaching experience. Additionally, I have practical knowledge in software testing as a freelance manual tester. My strengths include persistence, responsibility, and a desire to learn and explore new things. I am willing to invest my time and efforts to achieve my goal of becoming a frontend development professional. I believe that the RSSchool JavaScript/Front-end course will equip me with the necessary knowledge and skills to achieve my goal.
+        <h2>Work experience</h2>
+        <h3>Belarusian State University of Informatics and Radioelectronics</h3>
+        <p>
+          Assistant teacher, <i>09.2017-09.2021</i><br />
+          During my work I gained communication skills with various people.<br />
+          Courses taught: Ergonomics of Mobile Applications, Engineering and
+          Psychological Design, Testing, Software Evaluation, Human Life Safety,
+          Management of Students' Graduation Projects.
+        </p>
+      </div>
 
-## Technical Skills
+      <div class="resume-section">
+        <h2>Addition Info</h2>
+        <ul class="resume-section-list">
+          <li>English - Pre-Intermediate.</li>
+          <li>
+            I like nature photography, reading dystopias, skateboarding and
+            swimming.
+          </li>
+          <li>I am also actively studying English.</li>
+        </ul>
+      </div>
+    </div>
 
-- JavaScript
-- HTML
-- CSS
-- Git
-- Visual Studio Code
+    <div id="resume-footer">
+      <h2>Contacts</h2>
+      <p>
+        Phone:
+        <a href="tel:+375333034050" title="Phone">+375 33 3034050</a>
+      </p>
+      <p>
+        Gmail:
+        <a href="mailto:molliny42@gmail.com" title="Email"
+          >molliny42@gmail.com</a
+        >
+      </p>
 
-## Code examples
+      <p>Discord nickname: Tatsiana Malinina (@molliny42)</p>
 
-### Code example with codewars
+      <p>
+        Git profile link:
+        <a href="https://github.com/molliny42" title="Github"
+          >github.com/molliny42</a
+        >
+      </p>
 
-```javascript
-function howMuchWater(water, load, clothes) {
-  if (clothes < load) {
-    return "Not enough clothes";
-  } else if (clothes > 2 * load) {
-    return "Too much clothes";
-  } else {
-    let extraClothes = clothes - load;
-    let extraWater = extraClothes * 0.1;
-    let totalWater = water * Math.pow(1.1, extraClothes);
-    return parseFloat(totalWater.toFixed(2));
-  }
-}
-```
+      <p>
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/tatsiana-malinina-579163214/"
+          title="LinkedIn"
+          >LinkedIn</a
+        >
+      </p>
+    </div>
 
-### Code examples in C#
-
-- [Fitness tracker](https://github.com/molliny42/TMS-DotNet-Malinina/tree/homework_6)
-- [Task manager](https://github.com/molliny42/TMS-DotNet-Malinina/tree/homework_3)
-
-## Work experience
-
-### Belarusian State University of Informatics and Radioelectronics
-
-Assistant teacher, 09.2017-09.2021
-
-During my work I gained communication skills with various people. Courses taught: Ergonomics of Mobile Applications, Engineering and Psychological Design, Testing, Software Evaluation, Human Life Safety, Management of Students' Graduation Projects.
-
-## Education
-
-### Belarusian State University of Informatics and Radioelectronics
-
-- Bachelor’s degree, 2013-2017
-  - Specialty: Engineering and Psychological Support of Information Technologies.
-- Master’s degree, 2017-2019
-  - Specialty: Process Safety Management.
-
-## Additional Info
-
-- English - Pre-Intermediate
+  </body>
+</html>
