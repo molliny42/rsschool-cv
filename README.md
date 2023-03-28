@@ -1,1 +1,1 @@
-# rsschool-cv
+https://molliny42.github.io/rsschool-cv/cv
